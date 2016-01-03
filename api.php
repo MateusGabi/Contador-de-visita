@@ -43,7 +43,7 @@ function geraIdentificador() {
 */
 function registraVisita() {
 
-	$siteID  = @$_GET['siteID'];
+	$siteID  = $_GET['siteID'];
 
 	global $_VO;
  
@@ -87,7 +87,7 @@ function registraVisita() {
 */
 function visitantesOnline() {
 	global $_VO;
- $siteID  = @$_GET['siteID'];
+ $siteID  = $_GET['siteID'];
 	// Faz a consulta no MySQL em função dos argumentos
 	$sql = "SELECT COUNT(*) FROM `".$_VO['tabela_v']."` WHERE siteID = '$siteID' ";
 	$query = mysql_query($sql);
