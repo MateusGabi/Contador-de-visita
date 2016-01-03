@@ -4,6 +4,8 @@
 
 Trocando o idSite para cada site cadastrado. |   api.php?idSite=<b>12</b> </br></br></br></br>
 
+Novo: Trocando o siteID para cada site cadastrado. |   api.php?siteID=<b>12</b> </br></br></br></br>
+
 
 
 
